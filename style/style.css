@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: rgb(37, 37, 37);
+  list-style: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* ------------------HEADER---------------------- */
+
+header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+header .navbar .logo a {
+  color: #979899;
+  font-size: 30px;
+  margin-left: 40px;
+}
+header .navbar .menu ul {
+  margin-left: 50px;
+}
+header .navbar .menu ul li {
+  display: inline-block;
+  margin-right: 30px;
+  align-items: center;
+}
+header .navbar .menu ul li a {
+  color: #979899;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+header .navbar .menu ul li a:hover {
+  color: #c32865;
+}
+header .contact-info {
+  margin-left: 50px;
+}
+header .contact-info ul {
+  margin-left: 41px;
+}
+header .contact-info ul li {
+  display: inline-block;
+}
+header .contact-info ul li a {
+  color: #979899;
+  font-size: 15px;
+  transition: 0.3s;
+}
+header .contact-info ul li a:hover {
+  color: #c32865;
+}
+header .contact-info ul li a.sep {
+  margin: 0 28px;
+  opacity: 0.3;
+}
+header .banner {
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+  margin-top: 150px;
+}
+
+header .banner-title {
+  font-size: 40px;
+  color: #979899;
+}
+header .banner-title h1 span {
+  font-weight: 600;
+}
+header .banner-title h1 span:first-child:hover {
+  color: orange;
+  transition: 0.7s;
+}
+header .banner-title h1 span:last-child:hover {
+  color: yellow;
+  transition: 0.7s;
+}
+header .banner-title a img {
+  width: 80%;
+  height: 80%;
+  margin-left: 40px;
+}
+header .banner-title-check {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+header .banner-title-check span:hover {
+  color: rgb(73, 163, 247);
+  transition: 0.7s;
+}
+
+header .banner-img {
+  margin-left: 90px;
+}
+header .banner-img img {
+  width: 90%;
+  height: 90%;
+}
+
+/* ------------------HEADER-END---------------------- */
+.line {
+  background-color: #fff;
+  width: 1200px;
+  height: 2px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 160px;
+}
+/* ------------------ABOUT---------------------- */
+.section-ABOUT {
+  display: flex;
+  margin-left: 200px;
+  margin-bottom: 200px;
+}
+.section-ABOUT-title {
+  font-size: 20px;
+  color: #979899;
+  text-align: right;
+}
+.section-ABOUT-text p {
+  color: #979899;
+  font-size: 18px;
+  margin-left: 40px;
+}
+.section-ABOUT-text p:nth-child(2) {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* ------------------ABOUT-END---------------------- */
+/* ------------------EXPERTISE---------------------- */
+.section-EXPERTISE {
+  display: flex;
+  margin-left: 200px;
+  margin-bottom: 200px;
+}
+.section-EXPERTISE-title {
+  font-size: 20px;
+  color: #979899;
+  text-align: right;
+}
+.section-EXPERTISE-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+}
+.section-EXPERTISE-text {
+  margin: 40px;
+  margin-top: 0;
+  font-size: 18px;
+  color: #979899;
+}
+/* ------------------EXPERTISE-END---------------------- */
+/* -----------------SKILLS---------------------- */
+.section-SKILLS {
+  display: flex;
+  margin-left: 200px;
+  margin-bottom: 200px;
+}
+.section-SKILLS-text {
+  text-align: right;
+  color: #979899;
+  font-size: 18px;
+}
+.section-SKILLS-bar {
+  display: flex;
+  flex-wrap: wrap;
+  color: #979899;
+  font-size: 20px;
+}
+.section-SKILLS-bar li {
+    margin: 40px;
+    margin-top: 0;
+    margin-left: 60px;
+}
+.section-SKILLS-bar div h3 {
+  margin: 5px;
+}
+.bar {
+  background-color: #979899;
+  display: block;
+  height: 15px;
+  width: 320px;
+  border: 1px solid rgba(0, 0, 0, 0, 3);
+}
+.bar span{
+    height: 15px;
+    float: left;
+    background-color: #E0A80D;
+}
+.PHOTOSHOP {
+    width: 80%;
+    animation: PHOTOSHOP 3s;
+}
+.ILLUSTRATOR {
+    width: 75%;
+    animation: ILLUSTRATOR 3s;
+}
+.GIT {
+    width: 70%;
+    animation: GIT 3s;
+}
+.EFFECTS {
+    width: 65%;
+    animation: EFFECTS 3s;
+}
+.SKETCH {
+    width: 90%;
+    animation: SKETCH 3s;
+}
+.CSS3 {
+    width: 50%;
+    animation: CSS3 3s;
+}
+.PAGESPEED {
+    width: 85%;
+    animation: PAGESPEED 3s;
+}
+.SEO {
+    width: 95%;
+    animation: SEO 3s;
+}
+@keyframes PHOTOSHOP{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes ILLUSTRATOR{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes GIT{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes EFFECTS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes SKETCH{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes CSS3{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes PAGESPEED{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes SEO{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+/* -----------------SKILLS-END---------------------- */
+.section-EXPERIENCE{
+    display: flex;
+    margin-left: 200px;
+}
+.section-EXPERIENCE-title{
+    color: #979899;
+    text-align: right;
+}
+.section-EXPERIENCE-group-text-1{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-bottom: ;
+}
+.section-EXPERIENCE-text-1{
+    text-align: left;
+    color: #979899;
+    margin-bottom: 70px;
+}
+.section-EXPERIENCE-text-1 h3{
+    margin-top: 15px;
+}
+.section-EXPERIENCE-text-1 h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.section-EXPERIENCE-text-1 div{
+    opacity: 0.3;
+}
+.section-EXPERIENCE-group-text-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 19px;
+}
+.section-EXPERIENCE-text-2{
+    color: #979899;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.section-PORTFOLIO {
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+.section-PORTFOLIO-title {
+    text-align: right;
+    color: #979899;
+}
+.section-PORTFOLIO-img a img {
+    width: 360px;
+    height: 240px;
+    margin: 15px;
+}
+.section-PORTFOLIO-img {
+    display: flex;
+    margin-left: 100px;
+}
+.section-PORTFOLIO-img img{
+
+}
+.section-PORTFOLIO-img-1 {
+    display: flex;
+    flex-direction: column;
+}
+.section-PORTFOLIO-img-2 {
+    display: flex;
+    flex-direction: column;
+}
+.section-CONTACT {
+    display: flex;
+    margin-left: 200px;
+    color: #979899;
+}
+.section-CONTACT-title {
+}
+.section-CONTACT-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-CONTACT-text-1 {
+    display: flex;
+}
+.section-CONTACT-text-1 div{
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.section-CONTACT-text-2 {
+}

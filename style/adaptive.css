@@ -1,0 +1,9 @@
+@media all and(max-width:1024px){
+    header{
+        width: 0%;
+        height: 0%;
+    }
+    .banner-title{
+        font-size: 20px;
+    }   
+}
