@@ -308,6 +308,7 @@ header .banner-img img {
     }
 }
 /* -----------------SKILLS-END---------------------- */
+/* -----------------EXPERIENCE---------------------- */
 .section-EXPERIENCE{
     display: flex;
     margin-left: 200px;
@@ -349,6 +350,8 @@ header .banner-img img {
     margin-left: 40px;
     margin-bottom: 100px;
 }
+/* -----------------EXPERIENCE-END---------------------- */
+/* -----------------PORTFOLIO---------------------- */
 .section-PORTFOLIO {
     display: flex;
     margin-left: 200px;
@@ -378,6 +381,8 @@ header .banner-img img {
     display: flex;
     flex-direction: column;
 }
+/* -----------------PORTFOLIO-END---------------------- */
+/* -----------------CONTACT---------------------- */
 .section-CONTACT {
     display: flex;
     margin-left: 200px;
@@ -398,3 +403,4 @@ header .banner-img img {
 }
 .section-CONTACT-text-2 {
 }
+/* -----------------CONTACT-END---------------------- */
